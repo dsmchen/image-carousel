@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "image-carousel",
   "version": "1.0.0",
-  "description": "The Odin Project: Template Repositories (https://www.theodinproject.com/lessons/node-path-javascript-revisiting-webpack#template-repositories)",
+  "description": "The Odin Project: Image Carousel (https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions)",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsmchen/template.git"
+    "url": "git+https://github.com/dsmchen/image-carousel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dsmchen/template/issues"
+    "url": "https://github.com/dsmchen/image-carousel/issues"
   },
-  "homepage": "https://github.com/dsmchen/template#readme",
+  "homepage": "https://github.com/dsmchen/image-carousel#readme",
   "lint-staged": {
     "*.js": "eslint --fix",
     "**/*": "prettier --write --ignore-unknown"

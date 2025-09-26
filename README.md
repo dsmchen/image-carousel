@@ -1,6 +1,6 @@
-# template
+# image-carousel
 
-[The Odin Project: Template Repositories](https://www.theodinproject.com/lessons/node-path-javascript-revisiting-webpack#template-repositories)
+[The Odin Project: Image Carousel](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions)
 
 ## Resources
 

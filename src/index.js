@@ -74,3 +74,5 @@ function handleClickDotnav(e) {
     item.addEventListener("click", handleClickDotnav);
   });
 })();
+
+setInterval(nextImage, 5000);

@@ -88,3 +88,37 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* Image Carousel */
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.outer-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.inner-container {
+  position: absolute;
+  left: 0;
+  display: flex;
+  width: 1200px;
+}
+
+.slide {
+  width: 400px;
+}

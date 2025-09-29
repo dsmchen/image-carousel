@@ -6,19 +6,30 @@
     <title>Image Carousel</title>
   </head>
   <body>
-    <div class="outer-container">
-      <div class="inner-container">
-        <img
-          src="./assets/images/ella-olsson-2IxTgsgFi-s-unsplash.jpg"
-          alt="Avocado, banana and tomato on toast"
-        /><img
-          src="./assets/images/ella-olsson-6UxD0NzDywI-unsplash.jpg"
-          alt="Rice paper rolls"
-        /><img
-          src="./assets/images/ella-olsson-Pb9aFVR9-Bk-unsplash.jpg"
-          alt="Sesame tempeh skewers with spicy peanut sauce"
-        />
+    <div class="button-container">
+      <button class="previous" aria-label="Previous Slide">
+        <img src="./assets/icons/arrow-left.svg" alt="" />
+      </button>
+      <div class="outer-container">
+        <div class="inner-container">
+          <img
+            class="slide"
+            src="./assets/images/ella-olsson-2IxTgsgFi-s-unsplash.jpg"
+            alt="Avocado, banana and tomato on toast"
+          /><img
+            class="slide"
+            src="./assets/images/ella-olsson-6UxD0NzDywI-unsplash.jpg"
+            alt="Rice paper rolls"
+          /><img
+            class="slide"
+            src="./assets/images/ella-olsson-Pb9aFVR9-Bk-unsplash.jpg"
+            alt="Sesame tempeh skewers with spicy peanut sauce"
+          />
+        </div>
       </div>
+      <button class="next" aria-label="Next Slide">
+        <img src="./assets/icons/arrow-right.svg" alt="" />
+      </button>
     </div>
   </body>
 </html>

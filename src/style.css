@@ -91,6 +91,11 @@ h6 {
 
 /* Image Carousel */
 
+:root {
+  --gray-400: #bdbdbd;
+  --gray-900: #212121;
+}
+
 .button-container {
   display: flex;
   align-items: center;
@@ -101,7 +106,6 @@ h6 {
 button {
   background: none;
   border: none;
-  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -121,4 +125,28 @@ button {
 
 .slide {
   width: 400px;
+}
+
+.dotnav-container {
+  margin-top: 20px;
+}
+
+.dotnav-container ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dotnav-item {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: var(--gray-400);
+}
+
+.dotnav-item.current {
+  background-color: var(--gray-900);
 }
